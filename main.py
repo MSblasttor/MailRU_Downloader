@@ -54,8 +54,8 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     #print_hi('PyCharm')
-    main("https://cloud.mail.ru/public/1Swo/65ww21Q3G")
-    #main("https://cloud.mail.ru/public/kZkB/WR6UL8w3n")
+    main("https://cloud.mail.ru/public/1Swo/65ww21Q3G")  #Swift
+    #main("https://cloud.mail.ru/public/kZkB/WR6UL8w3n") #Python
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 
