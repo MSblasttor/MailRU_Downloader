@@ -13,9 +13,9 @@ from time import sleep
 
 def main():
     driver = webdriver.Chrome()
-    #driver.get("https://cloud.mail.ru/public/1Swo/65ww21Q3G")
+    driver.get("https://cloud.mail.ru/public/1Swo/65ww21Q3G")
     #driver.implicitly_wait(10)
-    driver.get("https://cloud.mail.ru/public/kZkB/WR6UL8w3n")
+    #driver.get("https://cloud.mail.ru/public/kZkB/WR6UL8w3n")
     #files = driver.find_elements(By.CLASS_NAME,"VirtualList__colItem*")
     #sleep(10)
     try:
@@ -43,7 +43,7 @@ def main():
             btn.click()
         except NoSuchElementException:
             print("Not alert window")
-
+        sleep(1)
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
